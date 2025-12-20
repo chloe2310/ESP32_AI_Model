@@ -15,6 +15,8 @@ The project combines both cloud-based monitoring and edge AI processing, aiming 
 🏗️ System Architecture
 
 The system consists of two independent embedded nodes:
+<img width="810" height="465" alt="image" src="https://github.com/user-attachments/assets/823988bb-ec8a-45df-b8f8-1a2e4b009ac4" />
+
 
 1️⃣ Monitoring & Cloud Node (ESP32-DevKit-V1)
 
