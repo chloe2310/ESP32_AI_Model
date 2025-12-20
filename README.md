@@ -55,12 +55,15 @@ Operates independently without cloud dependency
 🤖 Machine Learning Approach
 
 Uses unsupervised learning (K-means clustering) for anomaly detection
+<img width="892" height="569" alt="image" src="https://github.com/user-attachments/assets/e1bae379-85d1-43b5-80fa-a01803598acf" />
 
 The model is trained on real sensor data collected from the environment
 
 Normal operating conditions are grouped into clusters
 
 Data points that deviate significantly from these clusters are classified as anomalies
+<img width="873" height="667" alt="image" src="https://github.com/user-attachments/assets/009d8d85-bc1f-4d12-927d-620d13154a4e" />
+
 
 The trained model is deployed directly onto the ESP32-S3 for on-device inference
 
