@@ -32,7 +32,10 @@ Historical data storage
 
 Remote device control (LED on/off)
 
+
 <img width="847" height="441" alt="image" src="https://github.com/user-attachments/assets/84897172-bb80-43ae-9414-39d5707b475f" />
+
+
 
 
 Node 2 : Edge AI Node (ESP32-S3)
