@@ -1,4 +1,4 @@
-📌 Project Overview
+Project Overview : 
 
 This project focuses on building an IoT-based environmental monitoring and device control system that integrates TinyML and the MQTT communication protocol. The system is designed to collect real-time environmental data, visualize it on a cloud platform, and detect anomalies directly on embedded devices using on-device machine learning.
 
@@ -12,13 +12,13 @@ Ambient light intensity
 
 The project combines both cloud-based monitoring and edge AI processing, aiming to reduce latency, save bandwidth, and improve system responsiveness.
 
-🏗️ System Architecture
+System Architecture : 
 
 The system consists of two independent embedded nodes:
 <img width="810" height="465" alt="image" src="https://github.com/user-attachments/assets/823988bb-ec8a-45df-b8f8-1a2e4b009ac4" />
 
 
-1️⃣ Monitoring & Cloud Node (ESP32-DevKit-V1)
+Node 1 : Monitoring & Cloud Node (ESP32-DevKit-V1)
 
 Collects sensor data from DHT11 and BH1750
 
@@ -35,7 +35,7 @@ Remote device control (LED on/off)
 <img width="847" height="441" alt="image" src="https://github.com/user-attachments/assets/84897172-bb80-43ae-9414-39d5707b475f" />
 
 
-2️⃣ Edge AI Node (ESP32-S3)
+Node 2 : Edge AI Node (ESP32-S3)
 
 Runs a TinyML anomaly detection model trained using Edge Impulse
 
@@ -52,7 +52,7 @@ Operates independently without cloud dependency
 
 
 
-🤖 Machine Learning Approach
+Machine Learning Approach : 
 
 Uses unsupervised learning (K-means clustering) for anomaly detection
 <img width="892" height="569" alt="image" src="https://github.com/user-attachments/assets/e1bae379-85d1-43b5-80fa-a01803598acf" />
@@ -67,7 +67,7 @@ Data points that deviate significantly from these clusters are classified as ano
 
 The trained model is deployed directly onto the ESP32-S3 for on-device inference
 
-☁️ Communication & Platform
+Communication & Platform : 
 
 MQTT is used as the main communication protocol due to its lightweight and reliable publish/subscribe model
 
@@ -79,7 +79,9 @@ Data visualization dashboards
 
 Remote control and monitoring
 
-🎯 Key Features
+ 
+ 
+Key Features : 
 
 Real-time environmental monitoring
 
@@ -91,7 +93,9 @@ Low latency and low power consumption
 
 Scalable and suitable for IoT edge applications
 
-🚀 Applications
+
+ 
+Applications : 
 
 Smart home monitoring
 
